@@ -1,0 +1,31 @@
+.wrapper{
+    height: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 247, 247);
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    z-index: 9000;
+}
+
+.container_imgs{
+    width: 200px;
+   
+    display: flex;
+    justify-content: space-around;
+
+}
+
+p{
+    color: #21243D;
+
+    font-family:'Heebo';
+    font-size: 14px;
+}
